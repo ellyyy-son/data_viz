@@ -15,7 +15,6 @@ st.set_page_config(
 st.title("PPop Data Hunters ✨")
 
 with st.expander('About the Dataset'):
-    st.header("PPop")
     st.markdown(
     """
     What the data was gathered:
@@ -37,7 +36,7 @@ with st.expander('About the Dataset'):
     st.write("### Preview", feature_df.head())
 
 
-with st.expander('Data Features'):
+with st.expander('Data Summary'):
     st.dataframe(feature_df.describe(), use_container_width=True)
 
 fig = go.Figure()
