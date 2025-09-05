@@ -6,7 +6,6 @@ feature_df = pd.read_csv('data/audio_features.csv')
 features = ['acousticness', 'danceability', 'energy', 'instrumentalness', 'liveness','normalized_loudness', 'speechiness', 'normalized_tempo', 'valence']
 
 st.sidebar.write("Developed by Elly Olegario")
-st.sidebar.markdown("[![Foo](app/static/github.png)](https://github.com/ellyyy-son/data_viz)")
 st.set_page_config(
     page_title="PPop Data Hunters",  
     page_icon=":bar_chart:",  
