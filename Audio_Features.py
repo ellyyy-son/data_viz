@@ -122,6 +122,6 @@ with col1:
 with col2:
     st.write('See mean song features per artist:')
     artist_option_2 = st.selectbox('Select an artist:', feature_df['artist_name'].unique(), key = 2)
-    artist_songs_2 = feature_df[feature_df['artist_name'] == artist_option_1]
+    artist_songs_2 = feature_df[feature_df['artist_name'] == artist_option_2]
     artist_features = artist_songs_2.describe()[features].iloc[1]
     st.bar_chart(data=artist_features, x=None, y='mean')
