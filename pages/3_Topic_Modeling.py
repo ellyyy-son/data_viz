@@ -49,7 +49,7 @@ st.header("Topic 1")
 with st.container(border=True):
     st.subheader("Recognition of BINI and SB19 in the Music Industry")
     st.write("""
-    The topic’s top terms included ‘talented,’ ‘best,’ ‘proud,’ ‘success,’ and ‘hit,’ showing a picture of comments commending the groups for their artistry. This shows that people enjoy the music they produce, the performances they deliver, and the creative content they release, all of which contribute to a sense of pride in the groups’ accomplishments. The comments also highlight their talent and emphasize how the groups represent the country well, not losing to others. 
+    The topic’s top terms included ‘talented,’ ‘best,’ ‘proud,’ ‘success,’ and ‘hit,’ showing a picture of comments commending the groups for their artistry. This shows that people enjoy the music they produce, the performances they deliver, and the creative content they release, all of which contribute to a sense of pride in the groups’ accomplishments. The comments also highlight their talent and emphasize how the groups represent the country well, not losing in the international stage. 
 
     Comments include:
 
